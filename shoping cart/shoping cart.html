@@ -20,13 +20,13 @@
     </header>
     <main>
         <div class="container w-75 mx-auto">
-            <div class="mb-3 input-group ">
+            <div class="mb-3 input-group">
                 <input type="text" class="form-control" name="" id="input-fiild" aria-describedby="helpId"
                     placeholder="Product name hear">
-                <button type="button" class="btn btn-outline-primary">Add Item</button>
+                <button onclick="getProductName()" type="button" class="btn btn-outline-primary">Add Item</button>
             </div>
             <ul class="container w-75 mx-auto my-3" id="products-container"></ul>
-            <button id="please-order" type="button" class="btn btn-outline-primary">Please Order</button>
+            <button onclick="placeOrder()" type="button" class="btn btn-outline-primary">Please Order</button>
         </div>
     </main>
     <footer>

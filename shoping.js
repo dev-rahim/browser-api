@@ -54,7 +54,7 @@ const addProductsToCart = name => {
         cart[name] = 1;
     }
     const cartStringified = JSON.stringify(cart);
-    localStorage.setItem('cart', cartStringified)
+    localStorage.setItem('cart', cartStringified);
 }
 
 // const addProductsToCart = name => {
